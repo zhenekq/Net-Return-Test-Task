@@ -1,0 +1,58 @@
+.navbar{
+    -webkit-backdrop-filter: blur(70px);
+    backdrop-filter: blur(70px);
+    background: hsla(0,0%,100%,.10196078431372549);
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 1030;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .nav{
+        height: 70px;
+        max-width: 1440px;
+        padding: 0!important;
+        margin: auto!important;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: baseline;
+        
+
+        .logo img{
+            width: 160px;
+            height: 70px;
+            vertical-align: middle;
+        }
+        .nav_List{
+            background: #000;
+            background: transparent;
+            padding-bottom: 1em;
+            
+            ul{
+                display: flex;
+                flex-direction: row;
+                
+                li{
+                    margin-left:10px;
+                    list-style: none;
+                    
+                    a{                       
+                        position: relative;
+                        text-decoration: none;
+                        margin: 0 0 0 5px;
+                        font-weight: 300;
+                        font-size: 1rem;
+                        color: #fff;
+                        z-index: 11;
+                        line-height: 1.4rem;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.video{
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-top:200px;
+    width: 100%;
+    z-index: 10;
+
+    h1{
+        font-size: 4.5rem;
+        line-height: 4.5rem;
+        text-align: center;
+        color: white;
+    } 
+    h2{
+        color: white;
+        font-size: 1.45rem;
+        line-height: 2rem;
+        text-align: center;
+    }
+}
